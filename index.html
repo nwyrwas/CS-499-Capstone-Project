@@ -21,13 +21,14 @@
     header h1 {
       color: #fff;
       font-size: 2.6rem;
-      margin-bottom: 10px;
+      margin-bottom: 15px;
     }
-    header p {
+    header .subtitle {
       color: #a0a0a0;
       font-size: 1.1rem;
-      margin: 5px 0;
       line-height: 1.5;
+      display: inline-block;
+      text-align: center;
     }
     section {
       max-width: 1100px;
@@ -93,6 +94,8 @@
       font-size: 0.95rem;
       margin-top: 10px;
       font-style: italic;
+      text-align: center;
+      display: block;
     }
   </style>
 </head>
@@ -100,8 +103,10 @@
 
 <header>
   <h1>🧠 CS-499 Capstone Project</h1>
-  <p><strong>Animal Shelter Data Analytics Dashboard</strong></p>
-  <p>Created by <strong>Nicholas Wyrwas</strong> – B.S. Computer Science, Southern New Hampshire University (2025)</p>
+  <div class="subtitle">
+    <strong>Animal Shelter Data Analytics Dashboard</strong><br>
+    Created by <strong>Nicholas Wyrwas</strong> – B.S. Computer Science, Southern New Hampshire University (2025)
+  </div>
 </header>
 
 <section>
@@ -120,7 +125,7 @@
   <div class="preview-container">
     <h2>📸 Final Product Preview</h2>
     <img src="screenshot.jpg" alt="Final Dashboard Screenshot">
-    <p class="caption">Figure: The final Animal Shelter Data Analytics Dashboard displaying live adoption and intake analytics.</p>
+    <span class="caption">Figure: The final Animal Shelter Data Analytics Dashboard displaying live adoption and intake analytics.</span>
   </div>
 </section>
 
