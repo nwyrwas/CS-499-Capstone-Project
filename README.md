@@ -56,6 +56,70 @@ The enhanced version re-engineers the original system into a modern analytics pl
 | Environment | Virtualenv (Python 3.13), GitHub, VS Code, macOS |
 | Deployment | GitHub Pages (Documentation) + Local Execution for App |
 
+
 ---
 
-## 📂 Repository Structure
+## 💡 Key Features
+- **Search and Filtering:** Query records by animal type, breed, outcome, or location.  
+- **Interactive Charts:** Real-time data visualization for adoption rates and intake trends.  
+- **Map Integration:** Visualizes animal rescue data geographically (via Leaflet).  
+- **Dark Theme UI:** Clean, accessible interface suitable for presentation and professional use.  
+- **Secure Database Interaction:** Validated inputs and parameterized queries prevent injection.  
+- **Scalable Design:** Modular code structure for easy extension or integration with APIs.  
+
+---
+
+## 🧠 Skills Demonstrated
+- Software design and development  
+- Data structures and algorithms  
+- Databases and data analytics  
+- Secure coding and input validation  
+- System integration and version control  
+- UI/UX design and human-computer interaction  
+
+---
+
+## 🎓 Alignment with Program Outcomes
+| Program Outcome | Implementation Example |
+|-----------------|------------------------|
+| **Software Design and Development** | Modular Python architecture using Dash components. |
+| **Algorithms and Data Structures** | CRUD + query optimization through MongoDB pipelines. |
+| **Databases** | Secure CRUD operations with parameterization and indexing. |
+| **Security** | Implemented defense-in-depth and CERT standards. |
+| **Collaboration and Communication** | GitHub version control, code documentation, and code review video. |
+
+---
+
+## 📺 Demonstration
+A narrated walkthrough of the dashboard explains the system architecture, user interface, and enhancement process.  
+*(Coming soon — YouTube link will be embedded in portfolio site.)*
+
+---
+
+## 🧪 Setup and Execution
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/nwyrwas/CS-499-Capstone-Project.git
+cd CS-499-Capstone-Project/Final_Project
+
+**python3 -m venv dashenv
+source dashenv/bin/activate   # On macOS/Linux
+dashenv\Scripts\activate      # On Windows
+**
+
+pip install -r requirements.txt
+
+python app.py
+
+```
+
+## 🖼️ Preview
+Below is a snapshot of the final dashboard interface showcasing live analytics, search functionality, and data visualization.
+
+![Dashboard Preview](screenshot.jpg)
+
+
+
+
+
