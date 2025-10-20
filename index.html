@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CS-499 Capstone Project | Animal Shelter Analytics Dashboard</title>
+  <style>
+    body { margin:0; font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      background:#0e1117; color:#d0d0d0; line-height:1.6; }
+    header { background:linear-gradient(135deg,#0e1117,#161b22);
+      text-align:center; padding:60px 20px; border-bottom:1px solid #30363d; }
+    header h1 { color:#fff; font-size:2.6rem; }
+    header p { color:#a0a0a0; font-size:1.1rem; margin-top:10px; }
+    section { max-width:1100px; margin:auto; padding:60px 10%; }
+    h2 { color:#58a6ff; border-bottom:2px solid #30363d; display:inline-block;
+      padding-bottom:6px; margin-bottom:20px; }
+    p { margin-bottom:16px; text-align:justify; }
+    ul { margin-left:22px; }
+    table { width:100%; border-collapse:collapse; margin:20px 0; font-size:0.95rem; }
+    table th,td { border:1px solid #30363d; padding:8px; text-align:left; }
+    table th { background:#161b22; color:#fff; }
+    footer { text-align:center; padding:40px 10px;
+      background:#0d1117; border-top:1px solid #30363d; color:#888; }
+    a { color:#58a6ff; text-decoration:none; } a:hover { text-decoration:underline; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🧠 CS-499 Capstone Project</h1>
+  <p><strong>Animal Shelter Data Analytics Dashboard</strong><br>
+     Created by <strong>Nicholas Wyrwas</strong> – B.S. Computer Science, Southern New Hampshire University (2025)</p>
+</header>
+
+<section>
+  <h2>🧭 Professional Self-Assessment</h2>
+  <p>
+    Throughout my academic journey at Southern New Hampshire University, I evolved from a student exploring programming fundamentals
+    into a disciplined software engineer capable of designing secure, data-driven solutions from concept to deployment.
+    Early in my coursework, I built small console and web applications that introduced me to logic structures, data types, and system flow.
+    Over time, these foundational lessons matured into a deeper understanding of algorithms, modular design, and real-world scalability.
+  </p>
+  <p>
+    Courses such as <strong>CS-350 Emerging Systems Architecture</strong> and <strong>CS-410 Software Reverse Engineering</strong>
+    taught me to analyze systems from the inside out, bridging hardware-software integration with low-level behavior analysis.
+    This knowledge later informed how I debugged and optimized complex back-end interactions within my capstone project.
+    Similarly, <strong>CS-405 Secure Coding</strong> gave me the framework for preventing security flaws such as buffer overflows,
+    integer errors, and input vulnerabilities. These lessons directly influenced the design decisions made while developing the
+    Animal Shelter Analytics Dashboard, ensuring every database operation followed defensive programming principles.
+  </p>
+  <p>
+    Beyond technical growth, I also developed a professional mindset centered on ethics, accessibility, and user impact.
+    Understanding that technology is meant to empower people, I learned to prioritize user experience and data transparency.
+    The dashboard’s design reflects this philosophy — its dark theme, simple navigation, and instant feedback loops were all chosen
+    to minimize cognitive load and promote inclusivity.
+  </p>
+  <p>
+    This program also strengthened my collaborative and communication skills.
+    Working through GitHub repositories and peer feedback prepared me for professional development environments where teamwork,
+    documentation, and clear communication are essential. Each milestone built upon the last, reinforcing iterative design thinking,
+    agile methodology, and version control discipline.
+  </p>
+  <p>
+    In completing this capstone, I demonstrated my ability to unify all program outcomes:
+    designing a software system from the ground up, applying algorithms for data management,
+    integrating a secure database architecture, creating an intuitive interface, and documenting the process through technical writing and video review.
+    The experience validated my readiness to contribute as a full-stack software engineer capable of solving real-world challenges
+    with creativity, analytical rigor, and a focus on long-term sustainability.
+  </p>
+  <p>
+    Looking forward, I intend to apply these competencies in roles involving full-stack or data-driven software development.
+    My career goal is to continue building intelligent, ethical, and secure applications that enhance decision-making through data.
+    The completion of this project and degree marks not an end but the beginning of my professional evolution — one founded on curiosity,
+    continuous learning, and a commitment to engineering excellence.
+  </p>
+</section>
+  
+<section>
+  <h2>📘 Project Overview</h2>
+  <p>
+    The Animal Shelter Data Analytics Dashboard serves as the culmination of my Bachelor’s program in Computer Science at Southern New Hampshire University.
+    It demonstrates mastery across software engineering, secure coding, data management, and visualization while translating academic theory into an
+    applied, production-ready system. The project transforms raw shelter data into meaningful insights that can inform decisions about adoptions,
+    rescues, and community engagement.
+  </p>
+  <p>
+    Built with Python’s Dash and Flask frameworks, integrated with MongoDB, and enhanced with Matplotlib and Leaflet,
+    the dashboard allows users to search, filter, and visualize data dynamically.
+    The result is a professional-grade, secure analytics platform that merges usability with technical precision.
+  </p>
+</section>
+
+<section>
+  <h2>🎯 Objectives</h2>
+  <p>
+    The primary objective was to enhance a static CRUD application from CS-340 into a fully interactive analytics dashboard.
+    This meant introducing data visualizations, implementing stronger database security, and building a modular,
+    maintainable architecture. Another objective was to create a professional user experience through clean design and responsive layout.
+  </p>
+  <p>
+    Secondary objectives included integrating defense-in-depth security controls, applying algorithmic efficiency to database queries,
+    and following UI/UX best practices. Each goal aligns directly with SNHU’s program outcomes, ensuring that the final product
+    not only meets academic standards but also reflects industry expectations for full-stack developers.
+  </p>
+</section>
+
+<section>
+  <h2>🧩 Original Artifact – CS-340 Client-Server Development</h2>
+  <p>
+    The starting artifact originated from the CS-340 Client-Server Development course.
+    That project implemented a Flask-based CRUD web service connected to MongoDB, enabling basic operations for animal data management.
+    While functional, the original version had several limitations: it lacked real-time visualization, contained minimal security controls,
+    and had limited scalability. The design was primarily procedural and not yet modularized for large-scale extension.
+  </p>
+  <p>
+    These constraints made it an excellent foundation for enhancement.
+    The goal was to transform a working but rudimentary prototype into a sophisticated analytical environment with secure coding practices,
+    strong visual presentation, and interactive elements suitable for non-technical users such as shelter staff or data analysts.
+  </p>
+</section>
+
+<section>
+  <h2>🚀 Enhanced Artifact – Capstone Dashboard</h2>
+  <p>
+    The enhanced dashboard introduces significant architectural, functional, and design improvements.
+    By integrating Dash, I restructured the application into a component-based model that reacts to user events
+    through callback functions and dynamic rendering. Matplotlib powers graphical output,
+    while Dash Leaflet provides geographic mapping of animal rescue data.
+  </p>
+  <p>
+    Security and performance were central enhancements. I implemented parameterized MongoDB queries to mitigate injection vulnerabilities,
+    optimized aggregation pipelines to reduce query time, and separated application logic into distinct modules for maintainability.
+    The user interface now features a dark theme that emphasizes accessibility, readability, and professionalism.
+  </p>
+</section>
+
+<section>
+  <h2>🛠 Technical Stack</h2>
+  <table>
+    <tr><th>Layer</th><th>Technology</th></tr>
+    <tr><td>Front-End</td><td>Dash (HTML/CSS/JavaScript via Python Components)</td></tr>
+    <tr><td>Back-End</td><td>Flask + Dash Callbacks (Event-Driven Architecture)</td></tr>
+    <tr><td>Database</td><td>MongoDB with Aggregation Pipelines and Parameterized Queries</td></tr>
+    <tr><td>Visualization</td><td>Matplotlib · Plotly · Dash Leaflet (Geospatial Mapping)</td></tr>
+    <tr><td>Environment</td><td>Python 3.13 · Virtualenv · VS Code · macOS</td></tr>
+    <tr><td>Deployment</td><td>GitHub Pages (Documentation) + Local Execution for App</td></tr>
+  </table>
+</section>
+
+<section>
+  <h2>💡 Key Enhancements and Features</h2>
+  <ul>
+    <li><strong>Interactive Search & Filters:</strong> Users can query across breed, outcome type, and age in real time.</li>
+    <li><strong>Dynamic Charts:</strong> Matplotlib visualizes top breeds and outcome trends with automated updates.</li>
+    <li><strong>Leaflet Mapping:</strong> Shows animal rescue locations with tooltips and data pop-ups.</li>
+    <li><strong>Secure Coding:</strong> Parameterized database interactions and strict validation of user input.</li>
+    <li><strong>Dark-Mode UI:</strong> A clean, accessible interface consistent with professional dashboards.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>🧠 Skills and Program Outcomes Demonstrated</h2>
+  <ul>
+    <li><strong>Software Design & Development:</strong> Refactored legacy Flask system into modular, scalable Dash architecture.</li>
+    <li><strong>Algorithms & Data Structures:</strong> Applied efficient aggregation logic and data handling within MongoDB.</li>
+    <li><strong>Databases:</strong> Designed schema queries for performance and data integrity.</li>
+    <li><strong>Security:</strong> Integrated SEI CERT guidelines and OWASP defensive techniques.</li>
+    <li><strong>Collaboration:</strong> Managed iterative versioning and documentation in GitHub with a detailed code review video.</li>
+    <li><strong>UI/UX:</strong> Created accessible layouts emphasizing readability and usability.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>📂 Repository Contents</h2>
+  <table>
+    <tr><th>File / Folder</th><th>Description</th></tr>
+    <tr><td>Final_Project/</td><td>Complete Dash + Flask application files and source code.</td></tr>
+    <tr><td>Original Artifacts/</td><td>CS-340 Flask CRUD baseline used for enhancement.</td></tr>
+    <tr><td>Milestone 2.docx</td><td>Artifact selection and enhancement planning narrative.</td></tr>
+    <tr><td>Milestone Three.docx</td><td>Algorithms and data structure enhancements summary.</td></tr>
+    <tr><td>Milestone Four.docx</td><td>Final milestone documenting security and system improvements.</td></tr>
+    <tr><td>Professional Self Assessment.docx</td><td>Formal academic reflection of program outcomes.</td></tr>
+    <tr><td>screenshot.jpg</td><td>Preview image of the final dashboard interface.</td></tr>
+    <tr><td>README.md</td><td>Repository documentation with setup and overview.</td></tr>
+  </table>
+</section>
+
+<section>
+  <h2>🔗 Related Links</h2>
+  <ul>
+    <li>🌐 <a href="https://nwyrwas.github.io">Main Portfolio Homepage</a></li>
+    <li>💻 <a href="https://github.com/nwyrwas/CS-499-Capstone-Project">Final Repository</a></li>
+    <li>🎓 <a href="https://github.com/nwyrwas/CS-340-12210-M01-Client-Server-Development">Original Artifact Repository</a></li>
+  </ul>
+</section>
+
+<footer>
+  <p>© 2025 Nicholas Wyrwas | CS-499 Capstone Documentation via GitHub Pages</p>
+</footer>
+
+</body>
+</html>
